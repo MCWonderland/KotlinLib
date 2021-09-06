@@ -1,5 +1,5 @@
 main: it.tigierrei.kotlinlib.KotlinLib
-name: kotlinlib
-version: 1.0.0
+name: KotlinLib
+version: 1.0.1
 author: tigierrei
 description: "Loads the Kotlin libraries inside the server classpath to allow plugins to use Kotlin"
