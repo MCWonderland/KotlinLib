@@ -1,4 +1,4 @@
-package it.tigierrei.kotlinlib
+package it.filippocavallari.kotlinlib
 
 import org.bukkit.plugin.java.JavaPlugin
 
