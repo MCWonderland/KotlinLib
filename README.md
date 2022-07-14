@@ -1,3 +1,4 @@
+[![Build status badge](https://raw.githubusercontent.com/Filocava99/Buildy/master/builds/KotlinLib/KotlinLib-build.svg)](https://filocava99.github.io/Buildy/builds/KotlinLib/KotlinLib.html)
 # KotlinLib
 Loads the Kotlin libraries inside the server classpath to allow plugins to use Kotlin
 
