@@ -3,3 +3,4 @@ name: KotlinLib
 version: 1.1.0
 author: tigierrei
 description: "Loads the Kotlin libraries inside the server classpath to allow plugins to use Kotlin"
+api-version: 1.13

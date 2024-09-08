@@ -2,15 +2,15 @@ import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
 
 plugins {
     id("java")
-    kotlin("jvm") version "1.9.23"
-    kotlin("plugin.serialization") version "1.9.23"
+    kotlin("jvm") version "2.0.20"
+    kotlin("plugin.serialization") version "2.0.20"
     id("com.github.johnrengelman.shadow") version "6.0.0"
     `maven-publish`
     `java-library`
 }
 
 group = "org.mcwonderland"
-version = "1.9.23b1"
+version = "2.0.20b1"
 
 java {
     sourceCompatibility = JavaVersion.VERSION_1_8
@@ -30,8 +30,8 @@ dependencies {
 
     api(kotlin("reflect"))
 
-    api("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3")
-    api("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0")
+    api("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.2")
+    api("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1")
 }
 
 
@@ -66,8 +66,8 @@ publishing {
             url = uri("https://repo.imanity.dev/imanity-libraries")
 
             credentials {
-                username = ""
-                password = ""
+                username = "ludatou"
+                password = "tmn7oVYiO5etHpK"
             }
         }
     }
